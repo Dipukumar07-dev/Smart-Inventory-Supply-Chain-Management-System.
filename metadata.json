@@ -1,0 +1,6 @@
+{
+  "name": "Inventory and Supply Chain Tracker",
+  "description": "Real-time stock management, demand forecasting, supplier directories, and automated restock alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

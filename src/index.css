@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Editorial Classes */
+.editorial-bg {
+  background-color: #FDFCFB;
+}
+
+.editorial-text {
+  color: #1A1A1A;
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(26, 26, 26, 0.15);
+  border-radius: 4px; /* Crisp corners for editorial look */
+}
+
+.editorial-badge-neutral {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: #F2F1EE;
+  color: #1A1A1A;
+  border: 1px solid rgba(26, 26, 26, 0.1);
+}
+
+.editorial-button-primary {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 11px;
+  background-color: #1A1A1A;
+  color: #FDFCFB;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.editorial-button-primary:hover {
+  background-color: #333333;
+}
+
+.editorial-button-secondary {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 11px;
+  background-color: transparent;
+  color: #1A1A1A;
+  border: 1px solid rgba(26, 26, 26, 0.25);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.editorial-button-secondary:hover {
+  background-color: rgba(26, 26, 26, 0.05);
+}
